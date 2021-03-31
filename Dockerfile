@@ -7,6 +7,6 @@ FROM rclone/rclone
 #    && apt autoremove -y
 
 COPY entrypoint.sh /entrypoint.sh
-COPY rclone.conf /.config/rclone/rclone.conf
+COPY rclone.conf /config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
 CMD /entrypoint.sh
