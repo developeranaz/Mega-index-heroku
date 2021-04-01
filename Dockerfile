@@ -6,7 +6,7 @@ RUN pacman -Sy wget --noconfirm
 #    && apt install -y wget\
 #    && apt install -y rclone\
 #    && apt autoremove -y
-
+RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
