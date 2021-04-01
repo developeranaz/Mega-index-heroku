@@ -1,4 +1,5 @@
 FROM nginx
+RUN apt install unzip
 COPY rclone-current-linux-amd64.zip /rclone-current-linux-amd64.zip
 RUN unzip /rclone-current-linux-amd64.zip
 
