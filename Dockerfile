@@ -1,4 +1,9 @@
 FROM nginx
+ENV RCLONE_VER=1.52.1 \
+    BUILD_DATE=20200617T131603 \
+    ARCH=amd64 \
+    SUBCMD="" \
+    PARAMS=""
 RUN apk add --no-cache --update ca-certificates fuse fuse-dev unzip curl && \
     curl -O https://downloads.rclone.org/v${RCLONE_VER}/rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
     unzip rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
