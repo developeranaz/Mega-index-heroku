@@ -3,7 +3,9 @@ FROM nginx
 #RUN curl https://rclone.org/install.sh | sudo bash
 #RUN sudo pacman -Syy rclone
 RUN apt update -y
-RUN curl https://rclone.org/install.sh | sudo bash -s beta
+COPY entrypoint.sh /install.sh
+RUN chmod +x /install.sh
+CMD /install.sh
 
 #    && apt update -y \
 #    && apt upgrade -y
