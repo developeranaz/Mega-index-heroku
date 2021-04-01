@@ -1,7 +1,7 @@
 FROM nginx
-RUN apt install p7zip-full
+RUN apt install unzip
 COPY rclone-current-linux-amd64.zip /rclone-current-linux-amd64.zip
-RUN 7z e /rclone-current-linux-amd64.zip
+RUN unzip /rclone-current-linux-amd64.zip
 
 RUN apt-get update && \
     apt-get install -y \
