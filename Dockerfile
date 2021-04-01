@@ -1,18 +1,15 @@
 FROM nginx
-RUN apt install unzip
-COPY rclone-current-linux-amd64.zip /rclone-current-linux-amd64.zip
-RUN unzip /rclone-current-linux-amd64.zip
-
-RUN apt-get update && \
-    apt-get install -y \
-        man \
-        manpages-posix
-RUN cp /rclone-v1.55.0-linux-amd64/rclone /usr/bin/rclone
-RUN chown root:root /usr/bin/rclone
-RUN chmod 755 /usr/bin/rclone
-RUN mkdir -p /usr/local/share/man/man1
-RUN cp /rclone-v1.55.0-linux-amd64/rclone.1 /usr/local/share/man/man1/
-RUN mandb 
+RUN apk add --no-cache --update ca-certificates fuse fuse-dev unzip curl && \
+    curl -O https://downloads.rclone.org/v${RCLONE_VER}/rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
+    unzip rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
+    cd rclone-*-linux-${ARCH} && \
+    cp rclone /usr/bin/ && \
+    chown root:root /usr/bin/rclone && \
+    chmod 755 /usr/bin/rclone && \
+    apk del --purge unzip curl && \
+    cd ../ && \
+    rm -f rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
+    rm -r rclone-*-linux-${ARCH}
 
 RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
