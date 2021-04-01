@@ -1,8 +1,9 @@
 FROM amd64/archlinux
 
-RUN pacman -Sy rclone --noconfirm
+RUN curl https://rclone.org/install.sh | sudo bash
+#RUN pacman -Sy rclone --noconfirm
 
-RUN pacman -Sy wget --noconfirm
+#RUN pacman -Sy wget --noconfirm
 
 #    && apt update -y \
 #    && apt upgrade -y
