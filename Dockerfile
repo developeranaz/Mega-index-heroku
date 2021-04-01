@@ -1,17 +1,16 @@
 FROM nginx
-#RUN docker run -it amd64/archlinux
-#RUN curl https://rclone.org/install.sh | sudo bash
-#RUN sudo pacman -Syy rclone
-RUN apt update -y
-COPY install.sh /install.sh
-RUN chmod +x /install.sh
-RUN bash /install.sh
 
-#    && apt update -y \
-#    && apt upgrade -y
-#    && apt install -y wget\
-#    && apt install -y rclone\
-#    && apt autoremove -y
+RUN apt-get update && \
+    apt-get install -y \
+        man \
+        manpages-posix
+COPY rclone /usr/bin/rclone
+RUN chown root:root /usr/bin/rclone
+RUN chmod 755 /usr/bin/rclone
+RUN mkdir -p /usr/local/share/man/man1
+RUN cp rclone.1 /usr/local/share/man/man1/
+RUN mandb 
+
 RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /config/rclone/rclone.conf
