@@ -9,6 +9,6 @@ RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && 
 
 RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
-COPY rclone.conf /config/rclone/rclone.conf
+COPY rclone.conf /.config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
 CMD /entrypoint.sh
