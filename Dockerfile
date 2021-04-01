@@ -1,4 +1,4 @@
-FROM rclone/rclone
+FROM pfidr/rclone
 #RUN set -ex\
 #    && apt update -y \
 #    && apt upgrade -y
