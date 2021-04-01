@@ -1,5 +1,5 @@
 FROM rclone/rclone
-RUN set -ex\
+#RUN set -ex\
 #    && apt update -y \
 #    && apt upgrade -y
 #    && apt install -y wget\
