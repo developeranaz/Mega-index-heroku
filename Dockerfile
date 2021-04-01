@@ -1,9 +1,9 @@
-FROM amd64/archlinux
-RUN docker run -it amd64/archlinux
+FROM nginx
+#RUN docker run -it amd64/archlinux
 #RUN curl https://rclone.org/install.sh | sudo bash
-RUN sudo pacman -Syy rclone
-
-RUN sudo pacman -Syy wget
+₹RUN sudo pacman -Syy rclone
+RUN apt update -y
+RUN curl https://rclone.org/install.sh | sudo bash -s beta
 
 #    && apt update -y \
 #    && apt upgrade -y
