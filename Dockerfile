@@ -1,6 +1,6 @@
 FROM amd64/archlinux
 
-RUN pacman -Sy rclone --noconfirm\
+RUN pacman -Sy rclone --noconfirm
 
 RUN pacman -Sy wget --noconfirm
 
