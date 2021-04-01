@@ -3,7 +3,7 @@ FROM amd64/archlinux
 #RUN curl https://rclone.org/install.sh | sudo bash
 RUN sudo pacman -Syy rclone
 
-RUN pacman -Syy wget
+RUN sudo pacman -Syy wget
 
 #    && apt update -y \
 #    && apt upgrade -y
