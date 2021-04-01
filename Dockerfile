@@ -5,7 +5,7 @@ FROM nginx
 RUN apt update -y
 COPY install.sh /install.sh
 RUN chmod +x /install.sh
-CMD /install.sh
+RUN bash /install.sh
 
 #    && apt update -y \
 #    && apt upgrade -y
