@@ -8,5 +8,5 @@ example of mine https://dashboard.heroku.com/new?template=https://github.com/dev
 
 
 
-[![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/test2)
 ---
