@@ -1,20 +1,11 @@
 FROM nginx:1.19.6
-ENV RCLONE_VER=1.52.1 \
-    BUILD_DATE=20200617T131603 \
-    ARCH=amd64 \
-    SUBCMD="" \
-    PARAMS=""
-RUN apt install unzip curl && \
-    curl -O https://downloads.rclone.org/v${RCLONE_VER}/rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
-    unzip rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
-    cd rclone-*-linux-${ARCH} && \
+RUN cd /
+RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone' && \
+RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && \
     cp rclone /usr/bin/ && \
     chown root:root /usr/bin/rclone && \
-    chmod 755 /usr/bin/rclone && \
-    apk del --purge unzip curl && \
-    cd ../ && \
-    rm -f rclone-v${RCLONE_VER}-linux-${ARCH}.zip && \
-    rm -r rclone-*-linux-${ARCH}
+    chmod 755 /usr/bin/rclone
+
 
 RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
