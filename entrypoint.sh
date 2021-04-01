@@ -1,7 +1,7 @@
 #!/bin/bash
 #author https://github.com/developeranaz (don't delete this)
 #refreshing Rclone
-rclone version
+#rclone version
 #serving to port 8080
 #rclone serve http $STORAGENAME: --addr :$PORT
 #docker 
