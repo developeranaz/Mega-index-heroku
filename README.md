@@ -45,7 +45,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 # Supported Storage
 -------------------
 
- 1 . 1Fichier
+###### 1 . 1Fichier
    | "fichier"
 ------------
  2 . Alias for an existing remote
