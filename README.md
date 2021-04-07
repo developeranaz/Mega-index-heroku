@@ -42,7 +42,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
 # Supported Storage
-
+-------------------
 
  1 . 1Fichier
    | "fichier"
