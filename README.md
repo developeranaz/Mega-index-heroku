@@ -10,10 +10,10 @@ serve rclone drives to http via heroku
 2.upload your own rclone.conf file in root of this project
 ------------
 3.For easy deployment without heroku-cli, USE RAPID deployment by adding your repository to the end of this url and deploy rapidly
-https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/heroku-rclone-serve
+https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/Mega.nz-Rclone-Index-Heroku
 
 
-example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve
+example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku
 ------------
 4.Set Config Vars in settings of deployed application
 
@@ -21,14 +21,13 @@ example of mine https://dashboard.heroku.com/new?template=https://github.com/dev
 here replace YourDrive to your own cloud name given in rclone.conf file
 
 You can change it whenever you want and replaced to any cloud name that is available in rclone.conf file
-(MEGA.nz is only available at V2)
 
 ------------
 # Features
 
-##### Drive and other cloud except MEGA
+##### Almost all clouds are available
 
-##### MEGA support is available at version 2.0
+##### MEGA support is available
 
 ##### No internet speed capping ,Enjoy Maximum download speed
 
@@ -42,3 +41,4 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
+### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/issues/new) if you have one
