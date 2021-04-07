@@ -46,24 +46,31 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
  1 / 1Fichier
    \ "fichier"
-   -------------
+------------
  2 / Alias for an existing remote
    \ "alias"
-   
+------------   
  3 / Amazon Drive
    \ "amazon cloud drive"
+------------
  4 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, and Tencent COS
    \ "s3"
+------------
  5 / Backblaze B2
    \ "b2"
+------------
  6 / Box
    \ "box"
+------------
  7 / Cache a remote
    \ "cache"
+------------
  8 / Citrix Sharefile
    \ "sharefile"
+------------
  9 / Compress a remote
    \ "compress"
+------------
 10 / Dropbox
    \ "dropbox"
 11 / Encrypt/Decrypt a remote
