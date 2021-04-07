@@ -5,7 +5,7 @@
   "keywords": ["nginx", "docker", "rclone", "index"],
   "env": {
      "CLOUDNAME": {
-      "description": "Please enter your rclone config storage name that you have given",
+      "description": "Please enter your rclone config storage name that you have given SEE THIS EXAMPLE IMAGE https://i.imgur.com/R4O4ltn.png",
       "value": "Mymegaaccount1(REPLACETHIS)"
     }
 
