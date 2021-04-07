@@ -42,6 +42,8 @@ You can change it whenever you want and replaced to any cloud name that is avail
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
 #Supported Storage
+
+
  1 / 1Fichier
    \ "fichier"
  2 / Alias for an existing remote
@@ -94,36 +96,53 @@ You can change it whenever you want and replaced to any cloud name that is avail
    \ "azureblob"
 26 / Microsoft OneDrive
    \ "onedrive"
+   
 27 / OpenDrive
    \ "opendrive"
+   
 28 / OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
    \ "swift"
+   
+   
 29 / Pcloud
    \ "pcloud"
+   
 30 / Put.io
    \ "putio"
+   
 31 / QingCloud Object Storage
    \ "qingstor"
+   
 32 / SSH/SFTP Connection
    \ "sftp"
+   
 33 / Sugarsync
    \ "sugarsync"
+   
 34 / Tardigrade Decentralized Cloud Storage
    \ "tardigrade"
+   
 35 / Transparently chunk/split large files
    \ "chunker"
+   
 36 / Union merges the contents of several upstream fs
    \ "union"
+   
 37 / Webdav
    \ "webdav"
+   
 38 / Yandex Disk
    \ "yandex"
+   
 39 / Zoho
    \ "zoho"
+   
 40 / http Connection
    \ "http"
+   
 41 / premiumize.me
    \ "premiumizeme"
+   
 42 / seafile
    \ "seafile"
 
