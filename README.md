@@ -16,7 +16,7 @@ https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/Meg
 
 #### example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku
 ------------
-4.Set Config Vars in settings of deployed application
+# 4.Set Config Vars in settings of deployed application
 
 ```CLOUDNAME``` = ```YourDrive```
 here replace YourDrive to your own cloud name given in rclone.conf file
