@@ -4,7 +4,7 @@ serve rclone drives to http via heroku
 
 #project completed but still under development
 
-[![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/raw/main/.example_images/Screenshot_20210402_000543.jpg)]
+![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/raw/main/.example_images/Screenshot_20210402_000543.jpg)
 
 #Help ! Contribute me in brave 😋
 ------------
