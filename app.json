@@ -6,7 +6,7 @@
   "env": {
      "CLOUDNAME": {
       "description": "Please enter your rclone config storage name that you have given",
-      "value": "Mymegaaccount1"
+      "value": "Mymegaaccount1(REPLACETHIS)"
     }
 
 
