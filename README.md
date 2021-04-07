@@ -3,6 +3,7 @@
 serve rclone drives to http via heroku
 
 #project completed but still under development
+[Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/raw/main/.example_images/Screenshot_20210402_000543.jpg)
 
 #Help ! Contribute me in brave 😋
 ------------
@@ -40,7 +41,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 
 
-[![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
+[![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 ---
 # Supported Storage
 -------------------
