@@ -14,7 +14,7 @@ serve rclone drives to http via heroku
 https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/Mega.nz-Rclone-Index-Heroku
 
 
-###example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku
+### example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku
 ------------
 4.Set Config Vars in settings of deployed application
 
