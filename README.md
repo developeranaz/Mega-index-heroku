@@ -45,52 +45,51 @@ You can change it whenever you want and replaced to any cloud name that is avail
 # Supported Storage
 -------------------
 
-###### 1 . 1Fichier
-   | "fichier"
+###### 1 . 1Fichier| "fichier"
 ------------
- 2 . Alias for an existing remote
+###### 2 . Alias for an existing remote
    | "alias"
 ------------   
- 3 . Amazon Drive
+###### 3 . Amazon Drive
    | "amazon cloud drive"
 ------------
- 4 . Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, and Tencent COS
+###### 4 . Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, and Tencent COS
    | "s3"
 ------------
- 5 . Backblaze B2
+###### 5 . Backblaze B2
    | "b2"
 ------------
- 6 . Box
+###### 6 . Box
    | "box"
 ------------
- 7 . Cache a remote
+###### 7 . Cache a remote
    | "cache"
 ------------
- 8 . Citrix Sharefile
+###### 8 . Citrix Sharefile
    | "sharefile"
 ------------
- 9 . Compress a remote
+###### 9 . Compress a remote
    | "compress"
 ------------
-10 . Dropbox
+###### 10 . Dropbox
    | "dropbox"
 ------------
-11 . Encrypt/Decrypt a remote
+###### 11 . Encrypt/Decrypt a remote
    | "crypt"
 ------------
-12 . Enterprise File Fabric
+###### 12 . Enterprise File Fabric
    | "filefabric"
 ------------
-13 . FTP Connection
+###### 13 . FTP Connection
    | "ftp"
 ------------
-14 . Google Cloud Storage (this is not Google Drive)
+###### 14 . Google Cloud Storage (this is not Google Drive)
    | "google cloud storage"
 ------------
-15 . Google Drive
+###### 15 . Google Drive
    | "drive"
 ------------
-16 . Google Photos
+###### 16 . Google Photos
    | "google photos"
 ------------
 17 . Hadoop distributed file system
