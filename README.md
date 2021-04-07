@@ -41,13 +41,15 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
-#Supported Storage
+# Supported Storage
 
 
  1 / 1Fichier
    \ "fichier"
+   -------------
  2 / Alias for an existing remote
    \ "alias"
+   
  3 / Amazon Drive
    \ "amazon cloud drive"
  4 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, and Tencent COS
