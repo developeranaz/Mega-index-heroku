@@ -92,83 +92,77 @@ You can change it whenever you want and replaced to any cloud name that is avail
 ###### 16 . Google Photos
    | "google photos"
 ------------
-17 . Hadoop distributed file system
+###### 17 . Hadoop distributed file system
    | "hdfs"
 ------------
-18 . Hubic
+###### 18 . Hubic
    | "hubic"
 ------------
-19 . In memory object storage system.
+###### 19 . In memory object storage system.
    | "memory"
 ------------
-20 . Jottacloud
+###### 20 . Jottacloud
    | "jottacloud"
 ------------
-21 . Koofr
+###### 21 . Koofr
    | "koofr"
 ------------
-22 . Local Disk
+###### 22 . Local Disk
    | "local"
 ------------
-23 . Mail.ru Cloud
+###### 23 . Mail.ru Cloud
    | "mailru"
 ------------
-24 . Mega
+###### 24 . Mega
    | "mega"
 ------------
-25 . Microsoft Azure Blob Storage
+###### 25 . Microsoft Azure Blob Storage
    | "azureblob"
 ------------
-26 . Microsoft OneDrive
+###### 26 . Microsoft OneDrive
    | "onedrive"
 ------------
-27 . OpenDrive
+###### 27 . OpenDrive
    | "opendrive"
 ------------
-28 . OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+###### 28 . OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
    | "swift"
 ------------
-29 . Pcloud
+###### 29 . Pcloud
    | "pcloud"
 ------------
-30 . Put.io
+###### 30 . Put.io
    | "putio"
 ------------
-31 . QingCloud Object Storage
+###### 31 . QingCloud Object Storage
    | "qingstor"
 ------------
-32 . SSH/SFTP Connection
+###### 32 . SSH/SFTP Connection
    | "sftp"
 ------------
-33 . Sugarsync
+###### 33 . Sugarsync
    | "sugarsync"
 ------------
-34 . Tardigrade Decentralized Cloud Storage
+###### 34 . Tardigrade Decentralized Cloud Storage
    | "tardigrade"
 ------------
-35 . Transparently chunk/split large files
+###### 35 . Transparently chunk/split large files
    | "chunker"
 ------------
-36 . Union merges the contents of several upstream fs
+###### 36 . Union merges the contents of several upstream fs
    | "union"
 ------------
-37 . Webdav
-   | "webdav"
+###### 37 . Webdav | "webdav"
 ------------
-38 . Yandex Disk
-   | "yandex"
+###### 38 . Yandex Disk | "yandex"
 ------------
-39 . Zoho
-   | "zoho"
+###### 39 . Zoho | "zoho"
 ------------
-40 . http Connection
-   | "http"
+###### 40 . http Connection | "http"
 ------------
-41 . premiumize.me
-   | "premiumizeme"
+###### 41 . premiumize.me | "premiumizeme"
 ------------
-42 . seafile
-   | "seafile"
+###### 42 . seafile | "seafile"
 ------------
 
 ### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/issues/new) if you have one
