@@ -1,5 +1,5 @@
 # Mega.nz-Rclone-Index-Heroku
-## heroku-rclone-serve Version 2
+## heroku-rclone-serve V2
 serve rclone drives to http via heroku
 
 #project completed but still under development
