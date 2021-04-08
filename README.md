@@ -138,7 +138,12 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 ### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/issues/new) if you have one
 
+##### Please Try to re-deploy if any error occourred, this is common because some of the files are hosted on my free server at cloudflare
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/samplemega.PNG)
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
+
+### Tutorial of Youtube Will Publish Soon 
+
+### Donate me 
