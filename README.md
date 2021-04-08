@@ -23,7 +23,7 @@ https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/Meg
 ```CLOUDNAME``` = ```YourDrive```
 here replace YourDrive to your own cloud name given in rclone.conf file
 
-![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/blob/main/.example_images/deploy-example.PNG)
+![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/blob/main/.example_images/deploy2.PNG)
 OR
 ![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/blob/main/.example_images/config.PNG)
 
@@ -137,3 +137,8 @@ You can change it whenever you want and replaced to any cloud name that is avail
 ------------
 
 ### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/issues/new) if you have one
+
+
+![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/samplemega.PNG)
+
+![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
