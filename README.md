@@ -154,6 +154,6 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
 
-### Tutorial of Youtube Will Publish Soon 
+### Tutorial of will be published in youtube
 
 ### Donate me 
