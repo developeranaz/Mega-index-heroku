@@ -50,7 +50,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 ## How to generate own config ,‘rclone.conf‘ file ?
 
-#### By using Android RCX app ,this app is under beta stage, only beta testers would get this in [playstore](https://play.google.com/store/apps/details?id=io.github.x0b.rcx&hl=en&gl=US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Drcx+for+android&pcampaignid=APPU_1_GvNvYP7WGbfaz7sP0YWb0AQ) But you can download it from their offical [github repository](https://github.com/x0b/rcx/releases/download/v1.11.4/) or from [F-Droid](https://f-droid.org/en/packages/io.github.x0b.rcx/)
+#### By using Android RCX app ,this app is under beta stage, only beta testers would get this in [playstore](https://play.google.com/store/apps/details?id=io.github.x0b.rcx&hl=en&gl=US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Drcx+for+android&pcampaignid=APPU_1_GvNvYP7WGbfaz7sP0YWb0AQ) But you can download it from their offical [github repository](https://github.com/x0b/rcx/releases/) or from [F-Droid](https://f-droid.org/en/packages/io.github.x0b.rcx/)
 
 ##### 1.Install the [RCX](https://github.com/x0b/rcx/releases/download/v1.11.4/rcx-v1.11.4-universal-release.apk) app 
 ##### 2.Select your cloud storage mega or any other
