@@ -47,6 +47,17 @@ You can change it whenever you want and replaced to any cloud name that is avail
 
 
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
+
+## How to generate own config ,‘rclone.conf‘ file ?
+
+#### By using Android RCX app ,this app is under beta stage, only beta testers would get this in playstore
+But you can download it from their offical github repository or from F-Droid
+
+##### 1.Install the [RCX](https://github.com/x0b/rcx/releases/download/v1.11.4/rcx-v1.11.4-universal-release.apk) app 
+##### 2.Select your cloud storage mega or any other
+##### 3.Type your Remote name user and password
+##### 4.Export your rclone.conf and upload here
+
 ---
 # Supported Storage
 -------------------
