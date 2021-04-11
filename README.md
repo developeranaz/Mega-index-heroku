@@ -48,6 +48,7 @@ here replace YourDrive to your own cloud name given in rclone.conf file
 ##### No download limit or quota limit
 
 ##### pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
+##### Multi-threat support upto 5x
 
 
 
