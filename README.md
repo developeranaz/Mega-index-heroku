@@ -50,9 +50,10 @@ here replace YourDrive to your own cloud name given in rclone.conf file
 ##### pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
 ##### Multi-threat support upto 5x
 
-
+### please delete your config after deploying the application in github because config may be exposed to everyone
 
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
+
 
 ## How to generate own config ,‘rclone.conf‘ file ?
 
