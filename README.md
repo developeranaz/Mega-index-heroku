@@ -60,7 +60,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 ---
 # Supported Storage
 -------------------
-
+‘
 ###### 1 . 1Fichier| "fichier"
 ------------
 ###### 2 . Alias for an existing remote | "alias"
@@ -145,6 +145,7 @@ You can change it whenever you want and replaced to any cloud name that is avail
 ------------
 ###### 42 . seafile | "seafile"
 ------------
+‘
 
 ### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/issues/new) if you have one
 
