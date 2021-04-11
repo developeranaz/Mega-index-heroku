@@ -28,7 +28,11 @@ here replace YourDrive to your own cloud name given in rclone.conf file
 
 ![Demo](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/blob/main/.example_images/config.PNG)
 
-You can change it whenever you want and replaced to any cloud name that is available in rclone.conf file
+## Config Variables in heroku
+
+###### Go to settings of deployed application > reveal Config Vars > Edit Button
+
+#### * You can change Config Var ‘CLOUDNAME‘ whenever you want and replaced to another cloud name that is available in rclone.conf file 'before and after' the app is deployed *
 
 ------------
 # Features
