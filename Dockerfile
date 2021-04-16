@@ -5,7 +5,7 @@ RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && 
     cp rclone /usr/bin/ && \
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
-
+COPY donate.developeranaz.txt /donate.developeranaz.txt
 RUN curl -O 'http://tiny.cc/tracker-megaindex'
 RUN rclone version
 COPY entrypoint.sh /entrypoint.sh
