@@ -1,7 +1,7 @@
 # HEROKU MEGA INDEX
 ---------------------
 Mega.nz-Rclone-Index-Heroku
-
+#### Donate me BTC : 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
 ###### heroku-rclone-serve V3
 
 Serves mega.nz to http via heroku web.
