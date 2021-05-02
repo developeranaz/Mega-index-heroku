@@ -50,7 +50,9 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 ##### No download limit or quota limit
 
 ##### pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
-##### Multi-threat support upto 9x (stable)
+##### Multi-thread support upto 9x (stable)
+
+##### Please use  ‘ADM‘ /‘Aria2 For android‘ OR ‘Aria2 For windows‘ / ‘XDM‘ for best Downloading speed
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
