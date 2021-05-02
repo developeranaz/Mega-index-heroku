@@ -35,22 +35,18 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 ------------
 # Features
 
-##### No rclone.conf file needed
+* No rclone.conf file needed
+* Added More security
+* MEGA support is available
+* Switch your mega accounts in config vars
+* No internet speed capping ,Enjoy Maximum download speed
+* 24x7 permanent link
+* No download limit or quota limit
+* pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
+* Multi-thread support upto 9x (stable)
 
-##### Added More security
-
-##### MEGA support is available
-
-##### Switch your mega accounts in config vars
-
-##### No internet speed capping ,Enjoy Maximum download speed
-
-##### 24x7 permanent link
-
-##### No download limit or quota limit
-
-##### pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
-##### Multi-thread support upto 9x (stable)
+# Known Issues
+* In some devices ,detected some speed drop
 
 ##### Please use  ‘ADM‘ /‘Aria2 For android‘ OR ‘Aria2 For windows‘ / ‘XDM‘ for best Downloading speed
 
