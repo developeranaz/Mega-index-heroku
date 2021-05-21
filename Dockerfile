@@ -1,8 +1,12 @@
 FROM nginx:1.19.6
-RUN cd /
-RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone'
-RUN curl -O 'https://anaz1.pingme.workers.dev/0:/Mother.Server/unt/rclone.1' && \
-    cp rclone /usr/bin/ && \
+RUN set -ex\
+    && apt update -y \
+    && apt upgrade -y \
+    && apt install -y wget\
+    && apt install unzip -y
+RUN curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip && \
+    unzip rclone-current-linux-amd64.zip && \
+    cp /rclone-*-linux-amd64/rclone /usr/bin/ && \
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
 COPY donate-developeranaz.txt /donate-developeranaz.txt
