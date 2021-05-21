@@ -2,7 +2,6 @@ FROM nginx:1.19.6
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
-    && apt install -y wget\
     && apt install unzip -y
 RUN curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip && \
     unzip rclone-current-linux-amd64.zip && \
