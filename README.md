@@ -52,7 +52,7 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
-
+[![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
 ---
 # Supported Storage
