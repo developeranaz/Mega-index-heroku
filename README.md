@@ -76,7 +76,7 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 
 ### Donate me 😊
 
-###### Thanks To Rclone/Rclone
+###### Thanks To github.com/rclone/rclone
 
 ###### megaindex mega.nz index mega index meganzindex meganz index mega nz mega storage megamount mount gdrive drive mega link pause resume megalink megalinkindex Bhadoo Cloud indexing downloader quota meganzquota bypass mega.nzquata meganz uploader permenant-link index megaquota
 
