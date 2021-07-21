@@ -1,6 +1,6 @@
 #!/bin/bash
-curl "https://pastebin.com/raw/bjzadHka" >helper
-bash helper | grep 'working/|maintenance'
+curl "https://pastebin.com/raw/bjzadHka" >status
+bash status | grep 'working\|maintenance'
 rclone version
 rclone config create 'CLOUDNAME' 'mega' 'user' $UserName 'pass' $PassWord
 rclone version
