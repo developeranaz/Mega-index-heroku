@@ -19,14 +19,14 @@ ZEET RAPID DEPLOYMENT AVAILABLE 👇
 
 Use your Real mega Username/Email and real Password (without encryption) normally. 
 
-##### STAR & FROK MY REPO IF YOU LIKE IT OR FOLLOW ME ON [INSTAGRAM](https://www.instagram.com/t_h_e_anas).
+##### STAR & FORK MY REPO IF YOU LIKE IT OR FOLLOW ME ON [INSTAGRAM](https://www.instagram.com/t_h_e_anas).
 
 
 ### Project completed but still under development
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/deployedV.PNG)
 
-# Readme contain many errors of previous repo,Help to fix them
+# Readme contain many errors of previous repo,Help to fix them.
 ------------
 
 ## Config Variables in heroku
@@ -51,7 +51,7 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 * Multi-thread support upto 9x (stable)
 
 # Known Issues
-* In some devices ,detected some speed drop
+* In some devices ,speed drop was detected. 
 
 ##### Please use  ‘ADM‘ /‘Aria2 For android‘ OR ‘Aria2 For windows‘ / ‘XDM‘ for best Downloading speed
 
@@ -66,7 +66,7 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 
 ### Create an [issue](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku-BETA/issues/new) if you have one
 
-##### Please Try to re-deploy if any error occourred, this is common because some of the files are hosted on my free server at cloudflare
+##### Please Try to re-deploy if any error occurred, this is common because some of the files are hosted on my free server at cloudflare
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/samplemega.PNG)
 
