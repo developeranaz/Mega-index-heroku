@@ -26,7 +26,6 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/deployedV.PNG)
 
-# Readme contain many errors of previous repo,Help to fix them.
 ------------
 
 ## Config Variables in heroku
