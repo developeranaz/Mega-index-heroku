@@ -1,7 +1,5 @@
 #!/bin/bash
-curl "https://pastebin.com/raw/bjzadHka" >status
-xargs <status curl
-cat status | grep 'working\|maintenance'
+
 rclone version
 rclone config create 'CLOUDNAME' 'mega' 'user' $UserName 'pass' $PassWord
 rclone version
