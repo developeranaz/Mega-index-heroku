@@ -52,6 +52,7 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 # Known Issues
 * In some devices ,speed drop was detected. 
 
+Webdav with authentication added [here](https://github.com/bluehypergiant/Mega.nz-rclone-WebDav)
 ##### Please use  ‘ADM‘ /‘Aria2 For android‘ OR ‘Aria2 For windows‘ / ‘XDM‘ for best Downloading speed
 
 
