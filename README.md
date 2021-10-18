@@ -24,7 +24,7 @@ Project completed but still under development
 Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button
 Change Config Vars in settings of deployed application, change Email, password, indexauthentication and template for swiching accounts
 
-![configvar](configvar.png)
+![configvar](.example_img/configvar.png)
 
 REQUIRED CONFIG VARS
 
