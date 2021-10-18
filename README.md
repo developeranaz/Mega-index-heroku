@@ -20,6 +20,15 @@ Project completed but still under development
 
 ------------
 
+
+## How to deploy?
+### Basic
+1. Click on this Rapid deployment Button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
+2. Fill your MegaUsername and MegaPassword
+3. Fill indexauthentication type ``` true ``` or ``` false ```
+4. Click on deploy
+5. After deploying the application you can start using your index.
+
 ### Config Variables in heroku
 
 Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button
@@ -38,13 +47,6 @@ Change Config Vars in settings of deployed application, change Email, password, 
 `template` = `dark` or `light`
 
 
-## How to deploy?
-### Basic
-1. Click on this Rapid deployment Button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
-2. Fill your MegaUsername and MegaPassword
-3. Fill indexauthentication type ``` true ``` or ``` false ```
-4. Click on deploy
-5. After deploying the application you can start using your index.
 
 ### How to add Additional password for your Index website after deployment
 1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
