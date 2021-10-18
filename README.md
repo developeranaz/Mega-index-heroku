@@ -36,7 +36,6 @@ REQUIRED CONFIG VARS
 
 `template` = `dark` or `light`
 
-![Demo-Deploying](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/newdeploying.PNG)
 
 ## How to deploy?
 ### Basic
