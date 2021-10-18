@@ -72,9 +72,11 @@ REQUIRED CONFIG VARS
 
 ---
 
-![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/samplemega.PNG)
+![Demo](.example_img/dark-light-compare.png)
 
-![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
+![Demo](.example_img/dark-confvar-blurred.jpg)
+
+![Demo](.example_img/light-confvar-blurred.jpg)
 
 ### Tutorial of will be published soon
 
