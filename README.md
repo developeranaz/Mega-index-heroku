@@ -27,7 +27,7 @@ Change Config Vars in settings of deployed application, change Email, password, 
 
 ![configvar](.example_img/configvar.png)
 
-REQUIRED CONFIG VARS
+## REQUIRED CONFIG VARS
 
 `indexauthentication` = `true` or `false`
 
@@ -52,7 +52,7 @@ REQUIRED CONFIG VARS
 3. Open your web app and it will ask for username and password, type your own mega username and mega password.
 4. And if you don't want index authentication change the indexauthentication value to `false`
 
-### How to add Additional Dark and light theme for your Index website after deployment
+### How to Change Additional Dark and light theme for your Index website after deployment
 1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
 2. Change `template` = `light` for light template.
 3. and `template` = `dark` for dark template.
@@ -96,6 +96,3 @@ REQUIRED CONFIG VARS
 ###### Thanks To github.com/rclone/rclone
 
 ###### megaindex mega.nz index mega index meganzindex meganz index mega nz mega storage megamount mount gdrive drive mega link pause resume megalink megalinkindex Bhadoo Cloud indexing downloader quota meganzquota bypass mega.nzquata meganz uploader permenant-link index megaquota
-
-<meta name="googlec978fa026335d582.html meganz index mega.nz index meganzindex" content="...">
-<meta name="google-site-verification: googlec978fa026335d582.html" content="...">
