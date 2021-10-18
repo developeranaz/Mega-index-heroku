@@ -1,6 +1,6 @@
 <h1 align="center" style="margin-top: 0px;"><ins> MEGA.NZ RCLONE INDEX HEROKU </ins></h1>
-Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for mega storage and serves publicly.
-
+Mega Index Serves mega.nz to http using Rclone in heroku web. This creates a backdoor for mega storage and serves publicly And it has some other benefits like quota bypass, download stability, download through any download manager and speed boost.
+This has also a feature of webdav, allowing you to download and upload files. Now added with new index authorisation feature ie ., lock your index using your mega userid and password, this feature is optional because some users need unauthorized index for quotabypass and muchmore
 
 ![Demo](.example_img/mega-index-compare.png)
 
