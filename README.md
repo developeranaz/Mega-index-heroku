@@ -1,11 +1,10 @@
 <h1 align="center" style="margin-top: 0px;"><ins> MEGA.NZ RCLONE INDEX HEROKU </ins></h1>
-PLEASE WAIT I WILL ADD THIS FEATURE SOON
 Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for mega storage and serves publicly.
 
 
 ![Demo](.example_img/mega-index-compare.png)
 
-[HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
+[HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
 
 
 ZEET RAPID DEPLOYMENT AVAILABLE [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
