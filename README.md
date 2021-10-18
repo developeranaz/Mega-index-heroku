@@ -3,7 +3,7 @@
 Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for mega storage and serves publicly.
 
 
-![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
+![Demo](.example_img/mega-index-compare.png)
 
 [HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
@@ -64,7 +64,7 @@ REQUIRED CONFIG VARS
 * Multi-thread support upto 9x (stable)
 
 ### Known Issues
-* In some devices ,speed drop was detected. Please use  ‘ADM‘ /‘Aria2 For android‘ OR ‘Aria2 For windows‘ / ‘XDM‘ for best Downloading speed
+* In some devices ,speed drop was detected. Please use  ADM /FDM /Aria2 For android OR Aria2 For windows / XDM for best Downloading speed
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
