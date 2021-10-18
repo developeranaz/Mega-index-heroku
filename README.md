@@ -7,6 +7,7 @@ Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for 
 
 [HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
+
 ZEET RAPID DEPLOYMENT AVAILABLE [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
 Use your Real mega Username/Email and Password normally. 
@@ -22,6 +23,8 @@ Project completed but still under development
 
 Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button
 Change Config Vars in settings of deployed application, change Email, password, indexauthentication and template for swiching accounts
+
+![configvar](configvar.png)
 
 REQUIRED CONFIG VARS
 
