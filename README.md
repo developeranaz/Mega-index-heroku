@@ -1,5 +1,5 @@
 <h1 align="center" style="margin-top: 0px;"><ins> MEGA.NZ RCLONE INDEX HEROKU </ins></h1>
-
+PLEASE WAIT I WILL ADD THIS FEATURE SOON
 Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for mega storage and serves publicly.
 
 
