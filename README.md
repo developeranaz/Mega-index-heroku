@@ -5,14 +5,13 @@ This has also a feature of webdav, allowing you to download and upload files. No
 ![Demo](.example_img/mega-index-compare.png)
 
 ## Deploy
-[HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
+Heroku Rapid deployment without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
 
 
-ZEET RAPID DEPLOYMENT AVAILABLE [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
+Zeet Rapid deployment [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
-Use your Real mega Username/Email and Password normally. 
+Use your  Mega Username/Email and Password normally.This index is free for every one and this uses rclone to index your mega files. The username and password you are given are safe and couldn't be accessed by me, ie., its completely safe  
 
 STAR & FORK MY REPO IF YOU LIKE IT OR FOLLOW ME ON [INSTAGRAM](https://www.instagram.com/t_h_e_anas).
 Project completed but still under development
