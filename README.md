@@ -46,12 +46,21 @@ REQUIRED CONFIG VARS
 4. Click on deploy
 5. After deploying the application you can start using your index.
 
-### How to add Additional password for your Index website
-1.After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
+### How to add Additional password for your Index website after deployment
+1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
+2. Change `indexauthentication` = `true` for index authentication.
+3. Open your web app and it will ask for username and password, type your own mega username and mega password.
+4. And if you don't want index authentication change the indexauthentication value to `false`
+
+### How to add Additional Dark and light theme for your Index website after deployment
+1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
+2. Change `template` = `light` for light template.
+3. and `template` = `dark` for dark template.
 
 
-------------
-### Features
+
+-----------
+## Features
 * Index Authentication Added
 * Switch Dark and Light INDEX in config vars 
 * No rclone.conf file needed
@@ -64,7 +73,7 @@ REQUIRED CONFIG VARS
 * pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
 * Multi-thread support upto 9x (stable)
 
-### Known Issues
+## Known Issues
 * In some devices ,speed drop was detected. Please use  ADM /FDM /Aria2 For android OR Aria2 For windows / XDM for best Downloading speed
 
 
@@ -72,6 +81,7 @@ REQUIRED CONFIG VARS
 [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
 
 ---
+## Screenshots
 
 ![Demo](.example_img/dark-light-compare.png)
 
