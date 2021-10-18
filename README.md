@@ -4,7 +4,10 @@ Serves mega.nz to http using Rclone via heroku web. This creates a backdoor for 
 
 ![Demo](.example_img/mega-index-compare.png)
 
-[HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
+## Deploy
+[HEROKU RAPID DEPLOYMENT AVAILABLE](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku) without forking or github account.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
 
 
 ZEET RAPID DEPLOYMENT AVAILABLE [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
