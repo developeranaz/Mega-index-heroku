@@ -8,7 +8,7 @@ This has also a feature of webdav, allowing you to download and upload files. No
 
 ## Deploy
 
-Heroku Rapid deployment without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
+Heroku Rapid deployment without forking or github account. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku/tree/developeranaz-patch-1)
 
 
 Zeet Rapid deployment [![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku)
