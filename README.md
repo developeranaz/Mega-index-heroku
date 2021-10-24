@@ -52,7 +52,7 @@ Change Config Vars in settings of deployed application, change Email, password, 
 1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
 2. Change `indexauthentication` = `true` for index authentication.
 3. Open your web app and it will ask for username and password, type your own mega username and mega password.
-4. And if you don't want index authentication change the indexauthentication value to `false`
+4. And if you don't want index authentication, change the indexauthentication value in config var to `false`
 
 ### How to Change Additional Dark and light theme for your Index website after deployment
 1. After deployment complete Go to `settings` of deployed application > `reveal Config Vars` > `Edit` Button in Heroku
@@ -60,11 +60,11 @@ Change Config Vars in settings of deployed application, change Email, password, 
 3. and `template` = `dark` for dark template.
 
 
-
 -----------
 ## Features
 * Index Authentication Added
 * Switch Dark and Light INDEX in config vars 
+* WebDav support : You can transfer files with Webdav apps or any Network files
 * No rclone.conf file needed
 * Added More security
 * MEGA support is available
