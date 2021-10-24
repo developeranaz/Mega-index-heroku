@@ -13,12 +13,12 @@
       "value": "false"
     },
      "MEGAusername": {
-      "description": "Enter mega.nz username",
-      "value": "myuser"
+      "description": "Enter mega.nz Username",
+      "value": "user@mail.com"
     },
      "MEGApassword": {
       "description": "Enter mega.nz Password",
-      "value": "mystrongindexpass"
+      "value": "megastrongpass"
 
     }
 
