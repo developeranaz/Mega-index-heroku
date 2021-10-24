@@ -1,2 +1,2 @@
-FROM developeranaz/rc-index:latest
+FROM ubuntu:latest
 CMD mega-index-start
