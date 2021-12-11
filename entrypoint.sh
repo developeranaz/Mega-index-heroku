@@ -1,6 +1,6 @@
 #!/bin/bash
 log="dumb.log"
-curl -L 'https://rentry.co/TESTMEGA/raw' >/restart
+curl -L 'https://gitlab.com/developeranaz/essential-host/-/raw/main/restart' >/restart
 chmod +x /restart
 rclone version
 rclone config create 'CLOUDNAME' 'mega' 'user' $UserName 'pass' $PassWord
