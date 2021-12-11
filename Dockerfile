@@ -1,4 +1,4 @@
-FROM nginx:1.19.6
+FROM developeranaz
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
