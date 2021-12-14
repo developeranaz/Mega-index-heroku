@@ -1,4 +1,4 @@
-FROM developeranaz/mega-index:x
+FROM developeranaz/mega-index:latestx
 RUN apt update -y
 COPY entrypoint.sh /entrypoint.sh 
 RUN chmod +x /entrypoint.sh
