@@ -1,8 +1,7 @@
 # HEROKU MEGA INDEX
 ---------------------
-Mega.nz-Rclone-Index-Heroku
 
-Use [Zeet](https://deploy.zeet.co) --> Alternative of heroku.
+# Use [Zeet](https://zeet.co) --> Alternative of heroku.
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
 
