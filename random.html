@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function redirectToUrl() {
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", "https://raw.githubusercontent.com/dev-extended/datarepository/main/developeranaz-mega-index.txt", true);
+            rawFile.onreadystatechange = function () {
+                if (rawFile.readyState === 4) {
+                    var url = rawFile.responseText;
+                    document.location = url;
+                }
+            }
+
+            rawFile.send();
+        }
+        redirectToUrl();
+    </script>
+</head>
+
+<body>
+    Generating unique link...
+</body>
+</html>
