@@ -33,7 +33,8 @@ driver.quit()
 #curl "https://api.heroku.com/apps/THEAPPNAME/dynos" -X DELETE -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0" -H "Accept: application/vnd.heroku+json; version=3.cedar-acm" -H "Accept-Language: en-US,en;q=0.5" -H "Accept-Encoding: gzip, deflate, br" -H "Referer: https://dashboard.heroku.com/" -H "X-Origin: https://dashboard.heroku.com" -H "X-Heroku-Requester: dashboard" -H "Authorization: Bearer eXXXXX8-3XX7-4XXd-bXX3-40f5XXXc10" -H "Origin: https://dashboard.heroku.com" -H "Connection: keep-alive" -H "Sec-Fetch-Dest: empty" -H "Sec-Fetch-Mode: cors" -H "Sec-Fetch-Site: same-site" -H "TE: trailers" -O
 
 # FIND "access_token":"eXXXXX8-3XX7-4XXd-bXX3-40f5XXXc10"
-
+#RESPONE SCALE BELOW
+# cat auth |sed 's/,/\n/g' |grep 'access_token' |sed 's/"access_token":"//g;s/"//g'
 
 #DUMMY RESPONsE BELOW
 #{"authenticated":{"authenticator":"authenticator:oauth2","access_token":"eXXXXX8-3XX7-4XXd-bXX3-40f5XXXc10","expires_in":28799,"refresh_token":"xxxxx24-08x5-4bxx0-8dxx7-007xxxxxabb","session_nonce":"13xxxxe1-xxx1-448c-9xxxx-15xxxxxx2","token_type":"Bearer","user_id":"2cxxxx7f-3xxx1-xxxx2-xxxx76-bxxxxxa5x3x5","expires_at":16xxxxxx340}}
