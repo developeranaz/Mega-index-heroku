@@ -1,8 +1,6 @@
 # HEROKU MEGA INDEX
 ---------------------
 
-# Use [Zeet](https://zeet.co) --> Alternative of heroku.
-
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
 
 #### Donate me BTC : 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
@@ -72,6 +70,10 @@ Webdav with authentication added [here](https://github.com/bluehypergiant/Mega.n
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/samplemega.PNG)
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
+
+
+### Use [Zeet](https://zeet.co) --> Alternative of heroku.
+
 
 ### Tutorial of will be published soon
 
