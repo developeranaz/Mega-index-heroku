@@ -13,8 +13,6 @@ This creates a backdoor for mega storage and serves publicly.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/Mega-index-heroku/random.html)
 
-ZEET RAPID DEPLOYMENT AVAILABLE 👇
-[![Deploy](https://deploy.zeet.co/Mega.nz-Rclone-Index-Heroku.svg)](https://deploy.zeet.co/?url=https://github.com/developeranaz/Mega-index-heroku)
 
 Use your Real mega Username/Email and real Password (without encryption) normally. 
 
@@ -71,8 +69,6 @@ Webdav with authentication added [here](https://github.com/bluehypergiant/Mega.n
 
 ![Demo](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/megaandindex.PNG)
 
-
-### Use [Zeet](https://zeet.co) --> Alternative of heroku.
 
 
 ### Tutorial of will be published soon
