@@ -8,11 +8,11 @@
       "description": "Please enter Your MEGA.NZ Username/Email",
       "value": "Enter username/email here"
     },
-     "Heroku-Email-Id": {
+     "Heroku_Email_Id": {
       "description": "Please enter Your Current Heroku Email. Its optional only for auto quota bypass. Your data is safe, i will never touch it",
       "value": "Enter Heroku's Email here"
     },
-     "Heroku-Password": {
+     "Heroku_Password": {
       "description": "Please enter Your Current Heroku Password. Its optional only for auto quota bypass. Your data is safe i will never touch it",
       "value": "Enter Heroku's password here"
     },
