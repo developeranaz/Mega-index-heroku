@@ -19,10 +19,11 @@ echo 'okkkkk1111111111111111111111111111111111111111111111'
 /home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes -v > "$log" 2>&1 &
 while sleep 20
 do
-    if fgrep --quiet "Bandwidth Limit Exceeded" "$log"
+    if fgrep --quiet "c" "$log"
     then
         cd /Mega-index-heroku/quota-bypass
         bash bypass.sh
     fi
 done
 
+#Bandwidth Limit Exceeded
