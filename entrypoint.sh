@@ -21,7 +21,7 @@ if [ "$Auto_Quota_Bypass" = true ] ; then
 
 
 /home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes > "$log" 2>&1 &
-while sleep 20
+while sleep 10
 do
     if fgrep --quiet "Bandwidth Limit Exceeded" "$log"
     then
