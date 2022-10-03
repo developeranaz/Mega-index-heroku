@@ -9,7 +9,8 @@
       "value": "Enter username/email here"
     },
      "Heroku_Email_Id": {
-      "description": "Please enter Your Current Heroku Email. Its optional only for auto quota bypass. Your data is safe, i will never touch it",
+      "description": "Please enter Your Current Heroku Email. Its optional only for auto quota bypass. Your data is safe, i will never touch it"
+    //  "":""
     },
      "Heroku_Password": {
       "description": "Please enter Your Current Heroku Password. Its optional only for auto quota bypass. Your data is safe i will never touch it",
