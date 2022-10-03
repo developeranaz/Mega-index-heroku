@@ -5,24 +5,28 @@
   "keywords": ["nginx", "mega fileindex", "mega", "mega.nz", "megaindex", "mega.nz-index", "mega-dl", "mega.nz-downloader", "mega-backdoor", "megaindex-backdoor", "rclone", "index"],
   "env": {
      "UserName": {
-      "description": "Please enter Your MEGA.NZ Username/Email",
-      "value": "Enter username/email here"
+      "description": "Please enter Your MEGA.NZ Username/Email.",
+      "value": "example@mail.com"
     },
      "Heroku_Email_Id": {
-      "description": "Please enter Your Current Heroku Email. Its optional only for auto quota bypass. Your data is safe, i will never touch it",
-      "value": "Enter Heroku's Email here"
+      "description": "Enter Your Currently using Heroku Email. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
     },
      "Heroku_Password": {
-      "description": "Please enter Your Current Heroku Password. Its optional only for auto quota bypass. Your data is safe i will never touch it",
-      "value": "Enter Heroku's password here"
+      "description": "Enter Your Currently using Heroku Password. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
     },
      "APPNAME": {
-      "description": "Please enter Your appname same as above. Don't use your app link, Use Heroku's App name",
-      "value": "appname"
+      "description": "Please enter Your appname same as above. Don't use your app link, Use Heroku's App name. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
+    },
+     "Auto_Quota_Bypass": {
+      "description": "`true/false` |Use true or false values. Fill your Optional Config Variables if true.",
+      "value": "false"
     },
      "PassWord": {
-      "description": "Please enter your MEGA.NZ Password",
-      "value": "Enter your password here"
+      "description": "Please enter your MEGA.NZ Password.",
+      "value": "enter-your-mega-password"
     }
 
 
