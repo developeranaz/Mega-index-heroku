@@ -14,8 +14,13 @@ chmod +x /Mega-index-heroku/quota-bypass/bypass.sh
 touch /Mega-index-heroku/quota-bypass/checkquota.log
 /home/$RCR version
 /home/$RCR config create 'CLOUDNAME' 'mega' 'user' $UserName 'pass' $PassWord
-echo 'Logs from entrypoint 1111111111111111111111111111111111111111111111'
-/home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes -v > "$log" 2>&1 &
+
+
+if [ "$Auto_Quota_Bypass" = true ] ; then
+    
+
+
+/home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes > "$log" 2>&1 &
 while sleep 20
 do
     if fgrep --quiet "Bandwidth Limit Exceeded" "$log"
@@ -26,3 +31,8 @@ do
 done
 
 #
+else 
+/home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes 
+
+
+fi
