@@ -33,6 +33,17 @@ Use your Real mega Username/Email and real Password (without encryption) normall
 
 # ![Demo-Deploying](https://raw.githubusercontent.com/developeranaz/Mega.nz-Rclone-Index-Heroku/main/.example_images/newdeploying.PNG)
 
+
+
+I modified some of my older files and added Mega quota bypass.  You use it at your own risk. Four additional environment variables are required for the new feature. Change Variable `Auto_Quota_Bypass` to `true ` to activate Auto-Quota-Bypass Feature
+here [414e629](https://github.com/developeranaz/Mega-index-heroku/commit/414e629ec98bd5f5cb95d05ead1102e0f4db9836)
+
+
+1. `APPNAME`  --> Use Your appname same used in Heroku's webapp. Don't use your app link, Use Heroku's App name. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.
+2. `Heroku_Password` --> Your Currently deployed/deploying Heroku Password. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.
+3. `Heroku_Email_Id` --> Your Currently deployed/deploying Heroku Email. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.
+4. `Auto_Quota_Bypass` --> `true/false` |Use true or false values. Fill your Optional Config Variables if true.
+
 ------------
 # Features
 
