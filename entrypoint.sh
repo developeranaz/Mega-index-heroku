@@ -15,6 +15,8 @@ touch /Mega-index-heroku/quota-bypass/checkquota.log
 /home/$RCR version
 /home/$RCR config create 'CLOUDNAME' 'mega' 'user' $UserName 'pass' $PassWord
 
+while :
+do
 
 if [ "$Auto_Quota_Bypass" = true ] ; then
     
@@ -38,6 +40,10 @@ else
 fi
 
 
+done
+
+
 # if failed or exit run incase emergency
 echo "Auto_Quota_Bypass :$Auto_Quota_Bypass, value error please use true or false. Check your Heroku config vars"
 /home/$RCR serve http CLOUDNAME: --addr :$PORT --buffer-size 256M --dir-cache-time 12h --vfs-read-chunk-size 256M --vfs-read-chunk-size-limit 2G --vfs-cache-mode writes 
+
