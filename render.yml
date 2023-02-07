@@ -1,0 +1,15 @@
+# Define the type of application to deploy
+type: web
+
+# Specify the name of the environment
+name: myapp
+
+# Define the resources required for the application
+resources:
+  - name: web
+    type: docker
+    source: ./
+    command: ["bash", "/entrypoint.sh"]
+    ports:
+      - internal: 8000
+        external: 8000
