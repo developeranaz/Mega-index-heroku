@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 EXPOSE 8000
+ENV PORT=8000
 ARG DEBIAN_FRONTEND=noninteractive
 RUN DEBIAN_FRONTEND=noninteractive
 RUN apt update -y
