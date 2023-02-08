@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    image: <your-image-name>
+    ports:
+      - "8000:8000"
+    entrypoint: ["./entrypoint.sh"]
