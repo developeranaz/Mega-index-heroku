@@ -1,7 +1,7 @@
 # render.yaml
 version: '2'
 services:
-  app:
+  app: hel8
     build: .
     ports:
       - "8000:8000"
