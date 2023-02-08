@@ -1,8 +1,12 @@
-
-  - name: web
-    type: docker
-    source: ./
-    command: ["bash", "/Mega-index-heroku/entrypoint.sh"]
-    ports:
-      - internal: 8000
-        external: 8000
+version: 2
+env:
+  production:
+    services:
+      web:
+        image: mywebapp
+        ports:
+          - "80:8000"
+        env_vars:
+          MY_VAR: "value"
+        deployments:
+          - created_at: "2022-10-01T00:00:00Z"
