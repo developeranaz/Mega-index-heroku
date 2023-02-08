@@ -1,5 +1,4 @@
 
-resources:
   - name: web
     type: docker
     source: ./
