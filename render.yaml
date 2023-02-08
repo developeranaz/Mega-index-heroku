@@ -1,6 +1,4 @@
-type: web
 
-name: myapp
 resources:
   - name: web
     type: docker
